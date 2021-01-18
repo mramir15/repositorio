@@ -1,0 +1,162 @@
+body{
+    height: 125vh;
+    background-image: url(../images/Fondo.png);
+    background-size: cover;
+    margin: auto;
+}
+header {
+    background-position: center;
+    background-size: cover;
+}
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header img {
+    width: 400px;
+    height: 100px;
+}
+header ul li{
+    display: inline;
+}
+header li a {
+    text-decoration: none;
+    padding: 10px;
+    transition: all 1s;
+}
+header li a:hover {
+    padding: 10px;
+}
+nav dl dt:hover {
+    padding: 10px;
+}
+header p {
+    text-align: center;
+    word-wrap: break-word;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+header h1 {
+    align-items: center;
+    text-align: center;
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
+section img {
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0 0 25px black;
+}
+.textoCentrado {
+    text-align: center;
+}
+.form {
+    width: 20rem;
+    align-items: center;
+}
+.col {
+    margin-top: 3rem;
+}
+.col-sm-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 48%;
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+.carousel-item img {
+    width:720px;
+    height:480px;
+}
+.responsive-iframe {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50%
+}
+div p {
+    width:100%;
+}
+div hr {
+    width: 350px;
+    height: 1px;
+}
+nav dl dt {
+    text-align: left;
+    transition: all 1s;
+}
+table {
+    border-spacing: 50px 0px;
+}
+table dt {
+    text-align: left;
+}
+table th {
+    text-align: left;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 992px) {
+    .column {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fondoComenzar {
+    background-image: url(../images/image2.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 0 25px black;
+    padding: 5px;
+}
+.fondoAmarillo {
+    background-image: linear-gradient(#F8BC1F, black) ;
+    background-position: center;
+}
+.boxShadowa {
+    box-shadow: 0 0 25px #F8BC1F;
+}
+.boxShadown {
+    box-shadow: 0 0 25px black;
+}
+.grilla > div {
+    text-align: center;
+    padding: 10px 0;
+}
+.border {
+    border: 1px solid #F8BC1F;
+}
+.estiloBoton {
+    display: inline;
+    height: 50px;
+    padding: 5px;
+    background-color: #F8BC1F;
+    box-shadow: 0 0 25px black;
+}
